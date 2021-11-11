@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Neuton&display=swap');
+/* this is our menu code! */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(45, 127, 91);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(128, 175, 151);
+    color: rgb(0, 88, 42);
+  }
+  .active {
+    background-color:  rgb(0, 88, 42);
+  }
+body {
+    background-color: white;
+    font-family: 'Neuton', serif;
+    letter-spacing: 10px;
+    text-align: center;
+}
+h1 {
+    color: rgb(240, 83, 45);
+}
+p {
+    color: rgb(240, 83, 45);
+}
+.menu {
+    background-color: rgb(0, 88, 42);
+}
+img.animatedlogo {
+    height: 200;
+    width: 200;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(128, 175, 151);
+      font-family: 'Neuton', serif;
+      letter-spacing: 5px;
+    }
+    .logo{
+        background-color: white;
+    }
+    .animatedlogo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto 
+    }
+    h1 {
+        color: rgb(240, 83, 45);
+    }
+    p {
+        color:rgb(42, 61, 53);
+    }
+    .menu {
+        width: 500px;
+    }
+    img.alien {
+        height: 250;
+        width: 250;
+    
+    }
+  }
