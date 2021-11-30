@@ -31,7 +31,7 @@ ul {
     background-color:  #b0a5ca;
   }
 body {
-    background-image: url('https://mwalsh4300.files.wordpress.com/2021/11/background.gif?resize=900%2C900');
+    background-image: url('https://mwalsh4300.files.wordpress.com/2021/11/background.gif');
     background-size: 1920,1080;
     background-repeat: no-repeat;
     font-family: 'Neuton', serif;
@@ -59,7 +59,7 @@ img.animatedlogo {
 @media only screen and (max-width: 600px) {
     body {
       background-color:  white;
-      background-image: url('https://mwalsh4300.files.wordpress.com/2021/11/background.gif?resize=900%2C900');
+      background-image: url('https://mwalsh4300.files.wordpress.com/2021/11/background.gif');
       background-size: cover;
       font-family: 'Neuton', serif;
       letter-spacing: 5px;
