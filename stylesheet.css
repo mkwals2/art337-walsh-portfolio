@@ -48,6 +48,7 @@ p {
     background-color: #b0a5ca;
 }
 img.animatedlogo {
+    loop: false;
     height: 200;
     width: 200;
     display: block;
