@@ -32,8 +32,7 @@ ul {
   }
 body {
     background-image: url('https://mwalsh4300.files.wordpress.com/2021/11/background.gif?resize=900%2C900');
-    background-size: cover;
-    background-color: white;
+    background-size: auto;
     font-family: 'Neuton', serif;
     letter-spacing: 10px;
     text-align: center;
