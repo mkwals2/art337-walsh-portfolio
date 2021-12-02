@@ -32,7 +32,7 @@ ul {
   }
 body {
     background-image: url('https://mwalsh4300.files.wordpress.com/2021/11/background.gif');
-    background-size: auto;
+    background-size: 1005;
     background-repeat: no-repeat;
     font-family: 'Neuton', serif;
     letter-spacing: 10px;
@@ -64,9 +64,6 @@ img.animatedlogo {
       font-family: 'Neuton', serif;
       letter-spacing: 5px;
     }
-    .logo{
-        background-color: white;
-    }
     .animatedlogo {
         display: block;
         margin-left: auto;
@@ -80,10 +77,5 @@ img.animatedlogo {
     }
     .menu {
         width: 500px;
-    }
-    img.alien {
-        height: 250;
-        width: 250;
-    
     }
   }
