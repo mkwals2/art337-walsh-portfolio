@@ -59,6 +59,28 @@ img.animatedlogo {
 
 }
 @media only screen and (max-width: 1243px) {
+  body {
+    background-image: url('https://mwalsh4300.files.wordpress.com/2021/12/background-01.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    font-family: 'Neuton', serif;
+  }
+  .animatedlogo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto 
+  }
+  h1 {
+      color: #f15d2a;
+      font-size: 25px;
+      letter-spacing: 2px;
+  }
+  .menu {
+      width: 1243px;
+  }
+}
+@media only screen and (max-width: 1243px) {
     body {
       background-image: url('https://mwalsh4300.files.wordpress.com/2021/12/background-01.jpg');
       background-repeat: no-repeat;
