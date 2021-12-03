@@ -31,19 +31,22 @@ ul {
     background-color:  #b0a5ca;
   }
 body {
-    background-image: url('https://mwalsh4300.files.wordpress.com/2021/12/background2-09.png');
+    background-image: url('https://mwalsh4300.files.wordpress.com/2021/12/background-01.jpg');
     background-size: 100%;
+    background-position: 50% 50%;
     background-color: white;
-    font-family: 'Neuton', serif;
-    letter-spacing: 10px;
-    text-align: center;
+}
+.logo {
+  margin-top: 150px;
 }
 h1 {
-    color:#b11a29;
+    color:#f15d2a;
+    font-family: 'Neuton', serif;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
 }
-p {
-    color: #b11a29;
-}
+
 .menu {
     background-color: #b0a5ca;
 }
@@ -55,13 +58,13 @@ img.animatedlogo {
     margin-right: auto 
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1243px) {
     body {
-      background-image: url('https://mwalsh4300.files.wordpress.com/2021/12/background2-09.png');
+      background-image: url('https://mwalsh4300.files.wordpress.com/2021/12/background-01.jpg');
       background-repeat: no-repeat;
-      background-size: 500px 710px;
+      background-position: 50% 50%;
+      background-size: cover;
       font-family: 'Neuton', serif;
-      letter-spacing: 5px;
     }
     .animatedlogo {
         display: block;
@@ -69,12 +72,11 @@ img.animatedlogo {
         margin-right: auto 
     }
     h1 {
-        color: #b11a29;
-    }
-    p {
-        color:#2c7f5b;
+        color: #f15d2a;
+        font-size: 20px;
+        letter-spacing: 2px;
     }
     .menu {
-        width: 500px;
+        width: 1243px;
     }
   }
