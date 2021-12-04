@@ -80,7 +80,7 @@ img.animatedlogo {
       width: 1243px;
   }
 }
-@media only screen and (max-width: 1243px) {
+@media only screen and (max-width: 600px) {
     body {
       background-image: url('https://mwalsh4300.files.wordpress.com/2021/12/background-01.jpg');
       background-repeat: no-repeat;
@@ -99,6 +99,6 @@ img.animatedlogo {
         letter-spacing: 2px;
     }
     .menu {
-        width: 1243px;
+        width: 600px;
     }
   }
